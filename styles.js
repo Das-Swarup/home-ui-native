@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
   header: {
-    backgroundColor: '#333',
+    backgroundColor: 'lightgrey',
     height: 60,
     alignItems: 'center',
     justifyContent: 'center',
@@ -19,4 +19,8 @@ export default StyleSheet.create({
   buttonText: {
     color: '#000',
   },
+  search:{
+    backgroundColor:"white",
+    borderRadius: 5
+  }
 });
