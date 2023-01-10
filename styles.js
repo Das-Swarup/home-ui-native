@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 export default StyleSheet.create({
   header: {
     backgroundColor: 'lightgrey',
-    height: 60,
+    height: 200,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -20,7 +20,14 @@ export default StyleSheet.create({
     color: '#000',
   },
   search:{
+    maxWidth:200,
     backgroundColor:"white",
-    borderRadius: 5
+    borderRadius: 5,
+    fontSize:18,
+    
+  },
+  announcementBox:{
+
+    flexDirection:"row",
   }
 });
